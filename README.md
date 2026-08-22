@@ -28,6 +28,13 @@ Excel — PivotTables, PivotCharts, and slicers for an interactive dashboard
 4. Dashboard build — created PivotTables from raw data, added cross-filtering slicers (Branch, City, Customer Type, Gender), and built PivotCharts for an interactive Excel dashboard.
 5. Reporting — summarized findings and business recommendations in a written report.
 
+## Sql_queries_KPIs
+
+## Dashboard
+<img width="1446" height="771" alt="Screenshot 2026-08-16 234143" src="https://github.com/user-attachments/assets/82ba7b2b-ed39-4b49-960b-a801f1cde678" />
+<img width="1161" height="764" alt="Screenshot 2026-08-16 234222" src="https://github.com/user-attachments/assets/a6fd305a-cf2d-4c91-928e-c2b31cd8c909" />
+Interactive dashboard with slicers for Branch, City, Customer Type, and Gender — filtering all charts simultaneously.
+
 ## Key Findings
 - Price vs. volume: Notebook has the highest average unit price, but Shampoo generates the highest total revenue ($27,041) due to stronger sales volume — a reminder that price alone doesn't determine performance.
 - Apple consistently underperforms across every cut of the data — lowest revenue, lowest quantity, and lowest reward points, for both genders and both membership types.
@@ -35,4 +42,5 @@ Excel — PivotTables, PivotCharts, and slicers for an interactive dashboard
 - Branch structure matters: Branch A (New York + Chicago combined) naturally outperforms Branch B (Los Angeles) in total revenue — a structural factor, not a performance signal.
 - Regional product preferences differ: Shampoo leads by quantity in both New York and Chicago, while Orange Juice leads in Los Angeles.
 
-## Dashboard
+
+
