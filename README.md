@@ -28,8 +28,8 @@ Excel — PivotTables, PivotCharts, and slicers for an interactive dashboard
 4. Dashboard build — created PivotTables from raw data, added cross-filtering slicers (Branch, City, Customer Type, Gender), and built PivotCharts for an interactive Excel dashboard.
 5. Reporting — summarized findings and business recommendations in a written report.
 
-## Sql_queries_KPIs
-
+## Sql_queries Data cleaning & All KPIs 
+- <a href="https://github.com/AKRAMHOUSSA/convenience-store-sales-analysis/blob/main/SQL_Queries.sql">sql_queries
 ## Dashboard
 <img width="1446" height="771" alt="Screenshot 2026-08-16 234143" src="https://github.com/user-attachments/assets/82ba7b2b-ed39-4b49-960b-a801f1cde678" />
 <img width="1161" height="764" alt="Screenshot 2026-08-16 234222" src="https://github.com/user-attachments/assets/a6fd305a-cf2d-4c91-928e-c2b31cd8c909" />
@@ -42,5 +42,12 @@ Interactive dashboard with slicers for Branch, City, Customer Type, and Gender �
 - Branch structure matters: Branch A (New York + Chicago combined) naturally outperforms Branch B (Los Angeles) in total revenue — a structural factor, not a performance signal.
 - Regional product preferences differ: Shampoo leads by quantity in both New York and Chicago, while Orange Juice leads in Los Angeles.
 
+## Recommendations
+1. Maintain sufficient Shampoo inventory across all locations to prevent stockouts, given its consistent top performance in both revenue and quantity.
+2. Increase stock allocation for regionally preferred products — Orange Juice in Los Angeles and Notebook in New York — based on localized demand patterns.
+3. Investigate low performance of Apple through pricing, placement, or customer feedback review, rather than assuming a demand or quality issue from sales data alone.
+4. Consider a loyalty promotion tied to Shampoo purchases, since it's already the strongest reward-point driver among members.
+
+- <a href="https://github.com/AKRAMHOUSSA/convenience-store-sales-analysis/blob/main/Raport%20Analysis%20Sales%20Convenience%20Market.pdf">Report
 
 
