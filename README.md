@@ -21,4 +21,18 @@ This project analyzes sales data from a fictional convenience store chain operat
 SQL — data cleaning, validation, and KPI extraction (GROUP BY, window functions for ranking, aggregate queries)
 Excel — PivotTables, PivotCharts, and slicers for an interactive dashboard
 
-  
+## Process
+1. Data validation — checked for nulls, blanks, and duplicates across all columns; verified Total_price calculations against Unit_price × Quantity × 1.07.
+2. Data cleaning — identified and corrected inconsistent Product_category labels by aligning each product to its most frequent (correct) category. Unit_price variation was confirmed to be legitimate transaction-level data and left unmodified.
+3. KPI analysis — wrote SQL queries across three themes: Sales & Revenue, Customer Behavior, and Product Performance.
+4. Dashboard build — created PivotTables from raw data, added cross-filtering slicers (Branch, City, Customer Type, Gender), and built PivotCharts for an interactive Excel dashboard.
+5. Reporting — summarized findings and business recommendations in a written report.
+
+## Key Findings
+- Price vs. volume: Notebook has the highest average unit price, but Shampoo generates the highest total revenue ($27,041) due to stronger sales volume — a reminder that price alone doesn't determine performance.
+- Apple consistently underperforms across every cut of the data — lowest revenue, lowest quantity, and lowest reward points, for both genders and both membership types.
+- Male customers drive more total revenue than female customers, from both higher transaction volume (528 vs. 472) and higher average spend ($121.82 vs. $114.97).
+- Branch structure matters: Branch A (New York + Chicago combined) naturally outperforms Branch B (Los Angeles) in total revenue — a structural factor, not a performance signal.
+- Regional product preferences differ: Shampoo leads by quantity in both New York and Chicago, while Orange Juice leads in Los Angeles.
+
+## Dashboard
