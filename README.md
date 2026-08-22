@@ -6,6 +6,7 @@ SQL-driven sales and customer analysis of a 1,000-transaction convenience store 
 This project analyzes sales data from a fictional convenience store chain operating across two branches (Branch A: New York & Chicago, Branch B: Los Angeles). The goal was to extract key performance indicators around sales revenue, customer behavior, and product performance, then present findings through a written report and an interactive dashboard.
 
 ## Dataset used
+- <a href="https://github.com/AKRAMHOUSSA/convenience-store-sales-analysis/blob/main/sales.csv">Dataset_sales
 
 ## Business Questions
 1. Which branch generates the most sales?
